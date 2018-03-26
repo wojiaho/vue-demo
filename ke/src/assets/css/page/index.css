@@ -1,0 +1,60 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-12-28 19:09:26
+ * @version $Id$
+ */
+.swiper-wrapper img{width: 100%;}
+.swiper-container{padding-bottom: 0;}
+.pagination{position: absolute; bottom: 5px; width: 100%; text-align: center; z-index: 20;}
+.swiper-pagination-bullet{background: #fff;opacity: .5;margin-right: 5px;}
+.swiper-pagination-bullet-active{opacity: 1;}
+.top{height:2.2rem;}
+.container{margin-top: 10px;}
+.live-list{
+	position: relative;
+	overflow: hidden;
+	padding: 0 10px;
+}
+.live-left{float:left;width:50%;}
+.live-left img{width:100%;border-radius: 5px;}
+.live-right{
+	// float:left;
+	width:50%;
+	text-align: left;
+	position: absolute;
+	right: 0;
+	top: 19%;
+	padding:0 10px;
+}
+.live-right p{margin: 0;}
+.live-title{
+	font-size: 16px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.live-teacher{
+	font-size: 14px;
+	margin-top: 5px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.live-inclass-wrap{
+	color: #23b8ff;
+}
+.live-inclass{
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+	background: url("https://9.url.cn/edu/mobilev2/pages/index/img/inclass.ede0540.gif") no-repeat;
+	background-size: 10px 10px;
+	margin-right: 10px;
+}
+.live-info{
+	font-size: 14px;
+	color: #777;
+	margin-right: 5px;
+}
